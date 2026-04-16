@@ -1,6 +1,7 @@
 # Encoder-Decoder Transformer
 
-This project is a simple PyTorch implementation of the original encoder-decoder Transformer for German-to-English translation from Attention is All You Need. It uses a GPT-2 BPE tokenizer, trains on the WMT 2014 English-German dataset, and saves a checkpoint that can be loaded from a small command-line interface for interactive translation.
+This project is a simple PyTorch implementation of the original encoder-decoder Transformer for German-to-English translation from Attention is All You Need. It serves as an extension to Andrej Karpathy's 
+"Let's build GPT" video from YouTube and implements the full encoder-decoder architecture. It uses a GPT-2 BPE tokenizer, trains on the WMT 2014 English-German dataset, and saves a checkpoint that can be loaded from a small command-line interface for interactive translation. I did this mainly to solidify my understanding of transformers and also cause I was just curious about cross-attention, and the differences between the encoder and decoder blocks.  
 
 ## Project Structure
 
